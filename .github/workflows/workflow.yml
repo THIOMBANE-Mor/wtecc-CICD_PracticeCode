@@ -8,8 +8,8 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    container: python:3.9-slim
+    runs-on: debian-latest
+    container: python:3.9-19
     steps:
       - name: Checkout
         uses: actions/checkout@v3
